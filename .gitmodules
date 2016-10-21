@@ -1,3 +1,6 @@
 [submodule "reactive-cocoa/firstDemo/ReactiveCocoa"]
 	path = reactive-cocoa/firstDemo/ReactiveCocoa
 	url = https://github.com/ReactiveCocoa/ReactiveCocoa.git
+[submodule "realm/realmDemo/realm-cocoa"]
+	path = realm/realmDemo/realm-cocoa
+	url = https://github.com/realm/realm-cocoa.git
