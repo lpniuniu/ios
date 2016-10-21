@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0BC4E0E11DB9C0A700B19468"
-               BuildableName = "realmDemo.app"
+               BlueprintIdentifier = "0BC4E1041DB9C2EC00B19468"
+               BuildableName = "realmDemo"
                BlueprintName = "realmDemo"
                ReferencedContainer = "container:realmDemo.xcodeproj">
             </BuildableReference>
@@ -32,8 +32,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0BC4E0E11DB9C0A700B19468"
-            BuildableName = "realmDemo.app"
+            BlueprintIdentifier = "0BC4E1041DB9C2EC00B19468"
+            BuildableName = "realmDemo"
             BlueprintName = "realmDemo"
             ReferencedContainer = "container:realmDemo.xcodeproj">
          </BuildableReference>
@@ -55,8 +55,8 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0BC4E0E11DB9C0A700B19468"
-            BuildableName = "realmDemo.app"
+            BlueprintIdentifier = "0BC4E1041DB9C2EC00B19468"
+            BuildableName = "realmDemo"
             BlueprintName = "realmDemo"
             ReferencedContainer = "container:realmDemo.xcodeproj">
          </BuildableReference>
@@ -74,8 +74,8 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0BC4E0E11DB9C0A700B19468"
-            BuildableName = "realmDemo.app"
+            BlueprintIdentifier = "0BC4E1041DB9C2EC00B19468"
+            BuildableName = "realmDemo"
             BlueprintName = "realmDemo"
             ReferencedContainer = "container:realmDemo.xcodeproj">
          </BuildableReference>
