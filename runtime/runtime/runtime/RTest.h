@@ -8,6 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
+typedef enum : NSUInteger {
+    A,
+    B,
+    C,
+} D;
+
 @interface RTest : NSObject
 
 - (void)cc;
