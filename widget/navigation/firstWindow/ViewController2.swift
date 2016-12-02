@@ -58,7 +58,10 @@ class ViewController2: UIViewController {
         }
         
         presentBtn.bk_(whenTapped: {
-            _ = self.navigationController?.present(UIViewController(), animated: true, completion: nil)
+            let vc = UIViewController()
+            vc.modalTransitionStyle = .crossDissolve;
+            vc.view.backgroundColor = UIColor.yellow
+            _ = self.present(vc, animated: true, completion: nil)
         })
         
         title = "v1"

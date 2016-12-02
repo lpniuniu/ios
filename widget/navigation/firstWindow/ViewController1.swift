@@ -43,7 +43,7 @@ class ViewController1: UIViewController {
         }
         
         presentBtn.bk_(whenTapped: {
-            self.navigationController?.present(ViewController2(), animated: true, completion: nil)
+            self.present(ViewController2(), animated: true, completion: nil)
         })
     }
 
