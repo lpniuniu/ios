@@ -1,5 +1,5 @@
 //
-//  ViewController1.swift
+//  ViewController2.swift
 //  NavigationVC
 //
 //  Created by FanFamily on 2016/12/2.
@@ -7,44 +7,61 @@
 //
 
 import UIKit
-import SnapKit
-import BlocksKit
 
-class ViewController1: UIViewController {
-
-    let pushBtn:UIButton = UIButton()
+class ViewController2: UIViewController {
+    
+    let popBtn:UIButton = UIButton()
+    let dissmissBtn:UIButton = UIButton()
     let presentBtn:UIButton = UIButton()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
+        view.backgroundColor = UIColor.red
+        view.addSubview(popBtn)
+        popBtn.setTitle("pop", for: .normal)
+        popBtn.backgroundColor = UIColor.brown
         
-        view.addSubview(pushBtn)
-        pushBtn.setTitle("push", for: .normal)
-        pushBtn.backgroundColor = UIColor.brown
+        view.addSubview(dissmissBtn)
+        dissmissBtn.setTitle("dissmissBtn", for: .normal)
+        dissmissBtn.backgroundColor = UIColor.brown
+        
         view.addSubview(presentBtn)
-        presentBtn.setTitle("present", for: .normal)
+        presentBtn.setTitle("presentBtn", for: .normal)
         presentBtn.backgroundColor = UIColor.brown
         
-        pushBtn.snp.makeConstraints { (make) in
+        popBtn.snp.makeConstraints { (make) in
             make.top.equalTo(self.topLayoutGuide.snp.bottom)
             make.left.equalTo(view).offset(10)
             make.width.height.equalTo(50);
         }
         
-        pushBtn.bk_(whenTapped: {
-            self.navigationController?.pushViewController(ViewController2(), animated: true)
+        popBtn.bk_(whenTapped: {
+            _ = self.navigationController?.popViewController(animated: true)
+        })
+        
+        dissmissBtn.snp.makeConstraints { (make) in
+            make.top.equalTo(self.topLayoutGuide.snp.bottom)
+            make.left.equalTo(popBtn.snp.right).offset(10)
+            make.width.height.equalTo(100);
+        }
+        
+        dissmissBtn.bk_(whenTapped: {
+            _ = self.dismiss(animated: true, completion: nil)
         })
         
         presentBtn.snp.makeConstraints { (make) in
             make.top.equalTo(self.topLayoutGuide.snp.bottom)
-            make.left.equalTo(pushBtn.snp.right).offset(10)
-            make.width.height.equalTo(80);
+            make.left.equalTo(dissmissBtn.snp.right).offset(10)
+            make.width.height.equalTo(100);
         }
         
         presentBtn.bk_(whenTapped: {
-            self.navigationController?.present(ViewController2(), animated: true, completion: nil)
+            _ = self.navigationController?.present(UIViewController(), animated: true, completion: nil)
         })
+        
+        title = "v1"
     }
 
     override func didReceiveMemoryWarning() {

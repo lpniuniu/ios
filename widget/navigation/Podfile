@@ -7,4 +7,5 @@ target 'NavigationVC' do
 
   # Pods for NavigationVC
   pod 'SnapKit', '~> 3.0.2'
+  pod 'BlocksKit'
 end

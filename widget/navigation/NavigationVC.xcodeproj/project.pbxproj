@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0B61168F1DF15DDF0016470B /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B61168E1DF15DDE0016470B /* ViewController1.swift */; };
+		0B6116911DF1676C0016470B /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6116901DF1676C0016470B /* ViewController2.swift */; };
 		0BB6078E1DA4E9620087CDD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB6078D1DA4E9620087CDD7 /* AppDelegate.swift */; };
 		0BB607951DA4E9630087CDD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BB607941DA4E9630087CDD7 /* Assets.xcassets */; };
 		0BB607981DA4E9630087CDD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BB607961DA4E9630087CDD7 /* LaunchScreen.storyboard */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		0B61168E1DF15DDE0016470B /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		0B6116901DF1676C0016470B /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		0BB6078A1DA4E9620087CDD7 /* NavigationVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BB6078D1DA4E9620087CDD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0BB607941DA4E9630087CDD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				0B61168E1DF15DDE0016470B /* ViewController1.swift */,
+				0B6116901DF1676C0016470B /* ViewController2.swift */,
 				0BB6078D1DA4E9620087CDD7 /* AppDelegate.swift */,
 				0BB607941DA4E9630087CDD7 /* Assets.xcassets */,
 				0BB607961DA4E9630087CDD7 /* LaunchScreen.storyboard */,
@@ -197,7 +200,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -209,6 +212,7 @@
 			files = (
 				0B61168F1DF15DDF0016470B /* ViewController1.swift in Sources */,
 				0BB6078E1DA4E9620087CDD7 /* AppDelegate.swift in Sources */,
+				0B6116911DF1676C0016470B /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
