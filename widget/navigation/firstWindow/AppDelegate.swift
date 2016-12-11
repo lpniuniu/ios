@@ -19,9 +19,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow()
         // 将UINavigationController作为root vc
         let navVC = UINavigationController(rootViewController: ViewController1())
+        // let vc = ViewController1()
         window?.rootViewController = navVC
         window?.backgroundColor = UIColor.gray
         window?.makeKeyAndVisible()
+        
         return true
     }
 
